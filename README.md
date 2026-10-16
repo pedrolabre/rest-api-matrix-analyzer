@@ -11,10 +11,14 @@ Uma Single Page Application (SPA) analítica e local-first desenvolvida em React
 ```text
 rest-api-matrix-analyzer/
 ├── src/
+│   ├── types/
+│   │   └── domain-contracts.js
 │   ├── App.jsx
 │   ├── index.css
 │   └── main.jsx
 ├── tests/
+│   ├── unit/
+│   │   └── domain-contracts.test.js
 │   ├── App.test.jsx
 │   └── setup.js
 ├── index.html
