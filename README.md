@@ -13,7 +13,8 @@ rest-api-matrix-analyzer/
 ├── src/
 │   ├── parsers/
 │   │   ├── directory-reader.js
-│   │   └── file-filter.js
+│   │   ├── file-filter.js
+│   │   └── zip-extractor.js
 │   ├── types/
 │   │   └── domain-contracts.js
 │   ├── App.jsx
@@ -23,7 +24,8 @@ rest-api-matrix-analyzer/
 │   ├── unit/
 │   │   ├── directory-reader.test.js
 │   │   ├── domain-contracts.test.js
-│   │   └── file-filter.test.js
+│   │   ├── file-filter.test.js
+│   │   └── zip-extractor.test.js
 │   ├── App.test.jsx
 │   └── setup.js
 ├── index.html
