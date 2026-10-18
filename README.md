@@ -11,6 +11,8 @@ Uma Single Page Application (SPA) analítica e local-first desenvolvida em React
 ```text
 rest-api-matrix-analyzer/
 ├── src/
+│   ├── analyzers/
+│   │   └── express-route-analyzer.js
 │   ├── parsers/
 │   │   ├── ast-parser.js
 │   │   ├── directory-reader.js
@@ -26,6 +28,7 @@ rest-api-matrix-analyzer/
 │   │   ├── ast-parser.test.js
 │   │   ├── directory-reader.test.js
 │   │   ├── domain-contracts.test.js
+│   │   ├── express-route-analyzer.test.js
 │   │   ├── file-filter.test.js
 │   │   └── zip-extractor.test.js
 │   ├── App.test.jsx
