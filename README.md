@@ -13,7 +13,8 @@ rest-api-matrix-analyzer/
 ├── src/
 │   ├── analyzers/
 │   │   ├── client-call-analyzer.js
-│   │   └── express-route-analyzer.js
+│   │   ├── express-route-analyzer.js
+│   │   └── route-normalizer.js
 │   ├── parsers/
 │   │   ├── ast-parser.js
 │   │   ├── directory-reader.js
@@ -32,6 +33,7 @@ rest-api-matrix-analyzer/
 │   │   ├── domain-contracts.test.js
 │   │   ├── express-route-analyzer.test.js
 │   │   ├── file-filter.test.js
+│   │   ├── route-normalizer.test.js
 │   │   └── zip-extractor.test.js
 │   ├── App.test.jsx
 │   └── setup.js
