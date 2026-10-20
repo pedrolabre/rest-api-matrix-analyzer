@@ -17,6 +17,8 @@ rest-api-matrix-analyzer/
 │   │   ├── issue-detector.js
 │   │   ├── route-matcher.js
 │   │   └── route-normalizer.js
+│   ├── hooks/
+│   │   └── useProjectAnalysis.js
 │   ├── parsers/
 │   │   ├── ast-parser.js
 │   │   ├── directory-reader.js
@@ -24,6 +26,8 @@ rest-api-matrix-analyzer/
 │   │   └── zip-extractor.js
 │   ├── types/
 │   │   └── domain-contracts.js
+│   ├── workers/
+│   │   └── project-analysis.worker.js
 │   ├── App.jsx
 │   ├── index.css
 │   └── main.jsx
@@ -38,6 +42,7 @@ rest-api-matrix-analyzer/
 │   │   ├── issue-detector.test.js
 │   │   ├── route-matcher.test.js
 │   │   ├── route-normalizer.test.js
+│   │   ├── use-project-analysis.test.js
 │   │   └── zip-extractor.test.js
 │   ├── App.test.jsx
 │   └── setup.js
