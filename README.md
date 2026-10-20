@@ -14,6 +14,7 @@ rest-api-matrix-analyzer/
 │   ├── analyzers/
 │   │   ├── client-call-analyzer.js
 │   │   ├── express-route-analyzer.js
+│   │   ├── issue-detector.js
 │   │   ├── route-matcher.js
 │   │   └── route-normalizer.js
 │   ├── parsers/
@@ -34,6 +35,7 @@ rest-api-matrix-analyzer/
 │   │   ├── domain-contracts.test.js
 │   │   ├── express-route-analyzer.test.js
 │   │   ├── file-filter.test.js
+│   │   ├── issue-detector.test.js
 │   │   ├── route-matcher.test.js
 │   │   ├── route-normalizer.test.js
 │   │   └── zip-extractor.test.js
