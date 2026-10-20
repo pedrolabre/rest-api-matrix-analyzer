@@ -17,8 +17,14 @@ rest-api-matrix-analyzer/
 │   │   ├── issue-detector.js
 │   │   ├── route-matcher.js
 │   │   └── route-normalizer.js
+│   ├── components/
+│   │   └── project-import/
+│   │       ├── AuditHistoryList.jsx
+│   │       └── ProjectImportCard.jsx
 │   ├── hooks/
 │   │   └── useProjectAnalysis.js
+│   ├── pages/
+│   │   └── HomePage.jsx
 │   ├── parsers/
 │   │   ├── ast-parser.js
 │   │   ├── directory-reader.js
@@ -37,12 +43,15 @@ rest-api-matrix-analyzer/
 │   ├── unit/
 │   │   ├── analysis-storage.test.js
 │   │   ├── ast-parser.test.js
+│   │   ├── audit-history-list.test.jsx
 │   │   ├── client-call-analyzer.test.js
 │   │   ├── directory-reader.test.js
 │   │   ├── domain-contracts.test.js
 │   │   ├── express-route-analyzer.test.js
 │   │   ├── file-filter.test.js
+│   │   ├── home-page.test.jsx
 │   │   ├── issue-detector.test.js
+│   │   ├── project-import-card.test.jsx
 │   │   ├── route-matcher.test.js
 │   │   ├── route-normalizer.test.js
 │   │   ├── use-project-analysis.test.js
