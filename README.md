@@ -24,6 +24,8 @@ rest-api-matrix-analyzer/
 │   │   ├── directory-reader.js
 │   │   ├── file-filter.js
 │   │   └── zip-extractor.js
+│   ├── storage/
+│   │   └── analysis-storage.js
 │   ├── types/
 │   │   └── domain-contracts.js
 │   ├── workers/
@@ -33,6 +35,7 @@ rest-api-matrix-analyzer/
 │   └── main.jsx
 ├── tests/
 │   ├── unit/
+│   │   ├── analysis-storage.test.js
 │   │   ├── ast-parser.test.js
 │   │   ├── client-call-analyzer.test.js
 │   │   ├── directory-reader.test.js
