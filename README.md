@@ -18,6 +18,10 @@ rest-api-matrix-analyzer/
 │   │   ├── route-matcher.js
 │   │   └── route-normalizer.js
 │   ├── components/
+│   │   ├── endpoint-matrix/
+│   │   │   ├── EndpointMatrixTable.jsx
+│   │   │   ├── MatrixCellBadge.jsx
+│   │   │   └── MatrixFiltersBar.jsx
 │   │   └── project-import/
 │   │       ├── AuditHistoryList.jsx
 │   │       └── ProjectImportCard.jsx
@@ -47,10 +51,13 @@ rest-api-matrix-analyzer/
 │   │   ├── client-call-analyzer.test.js
 │   │   ├── directory-reader.test.js
 │   │   ├── domain-contracts.test.js
+│   │   ├── endpoint-matrix-table.test.jsx
 │   │   ├── express-route-analyzer.test.js
 │   │   ├── file-filter.test.js
 │   │   ├── home-page.test.jsx
 │   │   ├── issue-detector.test.js
+│   │   ├── matrix-cell-badge.test.jsx
+│   │   ├── matrix-filters-bar.test.jsx
 │   │   ├── project-import-card.test.jsx
 │   │   ├── route-matcher.test.js
 │   │   ├── route-normalizer.test.js
